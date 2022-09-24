@@ -2,4 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --primary-color:#21B573;
+}
+
+/* Start from here */
+#header-hero{
+    background: #F0FFF0;
+}
+.navbar-brand > img{
+    width: 198.07px;
+    height: 59px;
+}
+.nav-link{
+    color: #000000 !important;
+}
+.navbar-nav{
+    margin-right:50px;
+}
+.header-btn button{
+    padding: 12px 28px;
+    background: var(--primary-color);
+    border-radius: 33px;
+    border: none;
+    color: #ffffff;
+}
+
+/* header content */
+.header-content{
+    padding: 100px 0;
+}
+.content-box h6{
+    color: rgba(253, 81, 26, 1);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+}
+.content-box h1{
+    color: rgba(0, 0, 0, 1);
+    font-weight:bolder;
+    font-size: 3.4vmax;
+    line-height:4.8vmax;
+}
+.content-box span{
+    color: rgba(33, 181, 115, 1);
+}
+.content-box p{
+    color: rgba(108, 107, 107, 1);
+    margin: 35px 0;
+    line-height: 2.8rem;
+    font-size: 1.3rem;
+}
+.content-box button{
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding:12px 40px;
+}
+
+.image-box img{
+    max-width: 555px;
 }
