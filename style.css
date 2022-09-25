@@ -31,6 +31,10 @@
 }
 
 /* header content */
+#main-content{
+    background: #F0FFF0;
+    border-radius: 0% 0% 35% 40% / 10% 10% 5% 5% ;
+}
 .header-content{
     padding: 100px 0;
 }
@@ -126,7 +130,7 @@
 .card-btn{
     margin: 7px 0;
 }
-.card-btn h5{
+.card-btn a{
     padding:8px 25px;
     background-color: rgba(33, 181, 115, 1);
     display: inline-block;
@@ -135,6 +139,12 @@
     font-weight: 400;
     margin-left: 17px;
     font-size: 17px;
+    text-decoration: none;
+    transition: .5s;
+}
+.card-btn a:hover{
+    color: #FFFFFF;
+    background-color: rgb(30, 167, 106);
 }
 .card-footer{
     border: none !important;
@@ -178,7 +188,9 @@
 .footer-content{
     margin-left: 100px;
 }
-
+.footer-content h4{
+    font-size: 1.2rem;
+}
 .footer-content a{
     text-decoration: none;
     font-size: 1.1rem;
@@ -186,20 +198,15 @@
 }
 .footer-content li{
     list-style: none;
+    line-height: 1.8rem;
+}
+.footer-content li a:hover{
+    color: #21B573;
 }
 .footer-content li > a{
     font-size: 0.8rem;
     font-weight: 300;
 }
-
-
-
-
-
-
-
-
-
 
 .footer-copyright p{
     margin-top: 100px;
@@ -207,3 +214,67 @@
     font-size: 0.9rem;
     color: #CDCDCD;
 }
+
+
+/* Part of responsive */
+
+@media (max-width: 768px) {
+    
+    .content-box h6{
+        font-size: 2vmax;
+    }
+    .content-box h1{
+        font-size: 9.7vmin;
+    }
+    .content-box p{
+        line-height: 20px;
+        font-size: 4.5vmin;
+        margin: 27px 0;
+    }
+    #card-students{
+        border-radius: 0% 0% 35% 40% / 10% 10% 13% 13%;
+    }
+    #students .row{
+        gap: 70px;
+    }
+    .header-content{
+        padding: 62px 0;
+
+    }
+    .header-content .row{
+        gap: 70px;
+    }
+    .content-box button{
+        font-size: 4.1vmin;
+    }
+    .header-student{
+        padding: 59px 0;
+        font-size: 8.4vmin;
+    }
+    .footer-card span {
+        font-size: 2.8vmin;
+    }
+    .testimonial{
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: justify;
+        width: 85%;
+        margin:0 auto;
+    }
+    .testimonial .ms-5 {
+        margin-left: 0 !important;
+    }
+
+
+    .footer-content{
+        margin: 20px 0;
+        text-align: center;
+    }
+    .footer-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+}
+
+/* Point of ending */
