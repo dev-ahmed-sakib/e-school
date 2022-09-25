@@ -71,8 +71,8 @@
     margin-bottom: 120px;
 }
 .box{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height:calc( 100% + 12%);
     text-align: center;
     background-color: #f0fef6;
     border-radius: 0.9rem;
@@ -164,4 +164,46 @@
 }
 .testimonial img{
     max-width: 140px;
+}
+
+/* footer */
+
+#footer{
+    background-color: #282531;
+    color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.footer-content{
+    margin-left: 100px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+}
+.footer-content li{
+    list-style: none;
+}
+.footer-content li > a{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-copyright p{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #CDCDCD;
 }
